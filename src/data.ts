@@ -178,7 +178,7 @@ export const experiencia: Experiencia[] = [
 ]
 
 export const competencias: Competencias = {
-  frontend: ['React', 'TypeScript', 'JavaScript', 'Vite', 'Redux', 'Bootstrap', 'jQuery', 'HTML', 'CSS'],
+  frontend: ['React', 'TypeScript', 'JavaScript', 'Vite', 'Telerik', 'Bootstrap', 'jQuery', 'HTML', 'CSS'],
   backend: ['Go', 'Node.js', '.NET Core', '.NET Framework', 'C#', 'VB .NET'],
   apis: ['REST', 'GraphQL', 'SOAP'],
   basesDeDatos: ['PostgreSQL', 'SQL Server'],
@@ -195,7 +195,7 @@ export const competencias: Competencias = {
   ],
   contenedores: ['Docker', 'Kubernetes', 'EKS', 'Helm'],
   infraestructura: ['Terraform', 'AWS'],
-  observabilidad: ['Grafana', 'Prometheus', 'Datadog', 'OpenTelemetry'],
+  observabilidad: [ 'OpenTelemetry'],
   cicd: ['Git', 'Jenkins'],
   arquitectura: ['Microservicios', 'APIs', 'Eventos', 'Integración de sistemas', 'BFF'],
 }
