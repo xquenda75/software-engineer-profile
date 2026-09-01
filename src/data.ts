@@ -60,9 +60,9 @@ export interface NavLink {
 
 export const persona: Persona = {
   nombre: 'Jorge Alfonso López Alcántara',
-  titulo: 'Senior Software Engineer',
+  titulo: 'Software Engineer',
   subtitulo: 'Full Stack Developer · Cloud & Backend',
-  roles: ['React', 'TypeScript', 'Go', 'Node.js', '.NET', 'AWS'],
+  roles: ['.NET','React', 'TypeScript', 'Node.js','Go', 'AWS'],
   email: 'xquenda14@yahoo.com.mx',
   telefono: '52 55 2493 8104',
   ubicacion: 'CDMX, México',
