@@ -1,6 +1,6 @@
 # Jorge Alfonso López Alcántara — CV Web / Portafolio
 
-Versión web profesional de mi currículum, orientada a puestos de **Senior Software Engineer / Full Stack Developer / Backend Engineer**. Construida con **React + Vite** y publicada en **GitHub Pages**.
+Versión web profesional de mi currículum, orientada a puestos de **Full Stack Developer / Backend Engineer**. Construida con **React + Vite** y publicada en **GitHub Pages**.
 
 > El propio sitio es una demostración de las habilidades que presenta: React, TypeScript, arquitectura moderna y despliegue con CI/CD.
 

@@ -127,7 +127,7 @@ export const experiencia: Experiencia[] = [
       'Implementación y administración de infraestructura como código utilizando Terraform.',
       'Despliegue y administración de aplicaciones utilizando Docker, Kubernetes/EKS y Helm.',
       'Participación en procesos de integración y despliegue continuo mediante herramientas de CI/CD.',
-      'Implementación de mecanismos de observabilidad y monitoreo utilizando herramientas como Datadog, Grafana, Prometheus y OpenTelemetry.',
+      'Implementación de mecanismos de observabilidad y monitoreo utilizando herramientas como OpenTelemetry.',
     ],
   },
   {

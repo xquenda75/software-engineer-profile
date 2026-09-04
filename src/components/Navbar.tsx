@@ -15,6 +15,9 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
+        <a className="nav-cta" href={`${import.meta.env.BASE_URL}documents/cv_jorge_lopez_2026_09.pdf`}  download="cv_jorge_lopez_2026_09.pdf">
+          Download CV
+        </a>
         <a className="nav-cta" href={`mailto:${persona.email}`}>
           Contáctame
         </a>
