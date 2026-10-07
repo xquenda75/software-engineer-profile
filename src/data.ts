@@ -41,6 +41,7 @@ export interface Competencias {
   apis: string[]
   basesDeDatos: string[]
   cloud: string[]
+  cloud_infraestructura: string[]
   contenedores: string[]
   infraestructura: string[]
   observabilidad: string[]
@@ -178,8 +179,8 @@ export const experiencia: Experiencia[] = [
 ]
 
 export const competencias: Competencias = {
-  frontend: ['React', 'TypeScript', 'JavaScript', 'Vite', 'Telerik', 'Bootstrap', 'jQuery', 'HTML', 'CSS'],
-  backend: ['Go', 'Node.js', '.NET Core', '.NET Framework', 'C#', 'VB .NET'],
+  frontend: ['React', 'TypeScript', 'JavaScript', 'Telerik', 'Bootstrap', 'jQuery', 'HTML', 'CSS'],
+  backend: ['.NET Core', '.NET Framework', 'C#', 'VB .NET','Go', 'Node.js' ],
   apis: ['REST', 'GraphQL', 'SOAP'],
   basesDeDatos: ['PostgreSQL', 'SQL Server'],
   cloud: [
@@ -193,10 +194,11 @@ export const competencias: Competencias = {
     'AWS S3',
     'AWS API Gateway',
   ],
+  cloud_infraestructura: ['AWS','Terraform','Docker', 'Kubernetes', 'EKS', 'Helm'],
   contenedores: ['Docker', 'Kubernetes', 'EKS', 'Helm'],
   infraestructura: ['Terraform', 'AWS'],
   observabilidad: [ 'OpenTelemetry'],
-  cicd: ['Git', 'Jenkins'],
+  cicd: ['Git'],
   arquitectura: ['Microservicios', 'APIs', 'Eventos', 'Integración de sistemas', 'BFF'],
 }
 

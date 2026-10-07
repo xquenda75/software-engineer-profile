@@ -1,26 +1,34 @@
-import { competencias } from '../data'
+import { competencias } from "../data";
 
 interface HabilidadGrupo {
-  titulo: string
-  icono: string
-  items: string[]
+  titulo: string;
+  icono: string;
+  items: string[];
 }
 
 const grupos: HabilidadGrupo[] = [
-  { titulo: 'Frontend', icono: '🧩', items: competencias.frontend },
-  { titulo: 'Backend', icono: '⚙️', items: competencias.backend },
-  { titulo: 'APIs', icono: '🔌', items: competencias.apis },
-  { titulo: 'Bases de datos', icono: '🗄️', items: competencias.basesDeDatos },
-  { titulo: 'Contenedores', icono: '🐳', items: competencias.contenedores },
-  { titulo: 'Infraestructura', icono: '🏗️', items: competencias.infraestructura },
-  { titulo: 'Observabilidad', icono: '📊', items: competencias.observabilidad },
-  { titulo: 'CI/CD', icono: '🚀', items: competencias.cicd },
-  { titulo: 'Arquitectura', icono: '🏛️', items: competencias.arquitectura },
-]
+  { titulo: "Frontend", icono: "🧩", items: competencias.frontend },
+  { titulo: "Backend", icono: "⚙️", items: competencias.backend },
+  { titulo: "APIs", icono: "🔌", items: competencias.apis },
+  { titulo: "Bases de datos", icono: "🗄️", items: competencias.basesDeDatos },
+  {
+    titulo: "Cloud & Infraestructura",
+    icono: "☁️",
+    items: competencias.cloud_infraestructura,
+  },
+  // { titulo: 'Contenedores', icono: '🐳', items: competencias.contenedores },
+  // { titulo: 'Infraestructura', icono: '🏗️', items: competencias.infraestructura },
+  { titulo: "Observabilidad", icono: "📊", items: competencias.observabilidad },
+  // { titulo: "CI/CD", icono: "🚀", items: competencias.cicd },
+  { titulo: "Arquitectura", icono: "🏛️", items: competencias.arquitectura },
+];
 
 export default function Habilidades() {
   return (
-    <section className="seccion seccion-full seccion-habilidades" id="tecnologias">
+    <section
+      className="seccion seccion-full seccion-habilidades"
+      id="tecnologias"
+    >
       <div className="seccion-contenido">
         <p className="seccion-tag">Stack</p>
         <h2 className="seccion-titulo">Tecnologías</h2>
@@ -43,5 +51,5 @@ export default function Habilidades() {
         </div>
       </div>
     </section>
-  )
+  );
 }
