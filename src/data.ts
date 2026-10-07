@@ -92,7 +92,7 @@ export const experiencia: Experiencia[] = [
   {
     cargo: 'Senior Software Engineer',
     empresa: 'Dock Tech',
-    periodo: 'jun 2023 - jul 2025',
+    periodo: 'jun 2023 - ago 2026',
     ubicacion: 'Fintech · CDMX, México',
     destacada: true,
     resumen:

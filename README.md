@@ -54,7 +54,7 @@ npm run dev
 2. Verifica (o ajusta) el valor de `base` dentro de `vite.config.ts` para que coincida con el nombre del repositorio:
 
    ```ts
-   base: '/nombre-de-tu-repositorio/',
+   base: '/software-engineer-profile/',
    ```
 
 3. Sube el proyecto al repositorio:
@@ -64,7 +64,7 @@ npm run dev
    git add .
    git commit -m "CV web"
    git branch -M main
-   git remote add origin https://github.com/TU_USUARIO/nombre-de-tu-repositorio.git
+   git remote add origin https://github.com/xquenda75/software-engineer-profile.git
    git push -u origin main
    ```
 
@@ -74,17 +74,17 @@ npm run dev
    npm run deploy
    ```
 
-5. En GitHub, ve a **Settings → Pages** y, en *Build and deployment* → *Source*, selecciona **Deploy from a branch** y la rama **`gh-pages`** desde `/ (root)`.
+5. En GitHub, ve a **Settings → Pages** y, en _Build and deployment_ → _Source_, selecciona **Deploy from a branch** y la rama **`gh-pages`** desde `/ (root)`.
 
 La página quedará disponible en:
 
 ```
-https://TU_USUARIO.github.io/nombre-de-tu-repositorio/
+https://github.com/xquenda75/software-engineer-profile/
 ```
 
 ## Despliegue automático (GitHub Actions)
 
 Se incluye un flujo de trabajo en `.github/workflows/deploy.yml` que construye y publica el sitio automáticamente en cada `push` a la rama `main`. Para usarlo:
 
-1. En GitHub, ve a **Settings → Actions → General** y, en *Workflow permissions*, selecciona **Read and write permissions**.
+1. En GitHub, ve a **Settings → Actions → General** y, en _Workflow permissions_, selecciona **Read and write permissions**.
 2. Configura también **Settings → Pages** con la rama **`gh-pages`** como fuente.
